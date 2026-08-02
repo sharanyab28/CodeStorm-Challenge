@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeStorm Challenge | Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero">
+
+        <h1>🚀 CodeStorm Challenge</h1>
+
+        <h4>Let's Build Your Dreams Together</h4>
+
+        <p>
+            Gear up for the CodeStorm Challenge where your logic becomes your
+            weapon and every problem is an opportunity to shine.
+            Register now and showcase your coding skills!
+        </p>
+
+    </section>
+
+    <section class="registration-container">
+
+        <div class="registration-card">
+
+            <h2>Registration Form</h2>
+
+            <form id="registrationForm">
+
+                <div class="input-group">
+
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required>
+
+                </div>
+
+                <div class="input-grid">
+
+                    <div class="input-group">
+
+                        <label for="age">Age</label>
+
+                        <input
+                            type="number"
+                            id="age"
+                            placeholder="Enter your age"
+                            required>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label for="course">Course</label>
+
+                        <select id="course" required>
+
+                            <option value="">Select Course</option>
+
+                            <option>Python Programming</option>
+
+                            <option>Java</option>
+
+                            <option>C++</option>
+
+                            <option>Go</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label>Gender</label>
+
+                    <div class="gender">
+
+                        <label>
+                            <input type="radio" name="gender" required>
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender">
+                            Female
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="resume">Upload Resume</label>
+
+                    <input
+                        type="file"
+                        id="resume"
+                        required>
+
+                </div>
+
+                <div class="button-group">
+
+                    <button type="reset">Reset</button>
+
+                    <button type="submit">Submit</button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
